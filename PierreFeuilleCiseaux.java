@@ -58,6 +58,9 @@ public class PierreFeuilleCiseaux {
 						break;
 					} else {
 						System.out.println("Vous n'avez pas bien repondu !");
+						while (!choixRejouer.equals("oui") && !choixRejouer.equals("oui")) {
+							choixRejouer = scan.nextLine();	
+						}
 					}
 					
 				} else if ((monChoix.equals("pierre") && choixAdversaire.equals("ciseaux")) || (monChoix.equals("ciseaux") && choixAdversaire.equals("feuille")) || (monChoix.equals("feuille") && choixAdversaire.equals("pierre"))) {
@@ -84,6 +87,9 @@ public class PierreFeuilleCiseaux {
 							break;
 						} else {
 							System.out.println("Vous n'avez pas bien repondu !");
+							while (!choixRejouer.equals("oui") && !choixRejouer.equals("oui")) {
+								choixRejouer = scan.nextLine();	
+							}
 						}
 					}
 				else {
@@ -104,6 +110,9 @@ public class PierreFeuilleCiseaux {
 						break;
 					} else {
 						System.out.println("Vous n'avez pas bien repondu !");
+						while (!choixRejouer.equals("oui") && !choixRejouer.equals("oui")) {
+							choixRejouer = scan.nextLine();	
+						}
 					}
 //					System.out.println("A vous de jouer, faites votre choix, entrez pierre, feuille ou ciseaux :");
 				}
